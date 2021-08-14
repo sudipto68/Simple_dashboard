@@ -3,7 +3,7 @@ import React from "react";
 const ImageCardButton = ({ btn }) => {
   return (
     <>
-      <button className="common-btn">- {btn}</button>
+      <button className="common-btn"> {btn}</button>
     </>
   );
 };

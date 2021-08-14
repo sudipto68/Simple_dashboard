@@ -8,29 +8,33 @@ const ImageCard = () => {
       id: 1,
       title: "Delhi events 2022",
       description: "A small description goes here",
-      btn: "Important",
-      link: "https://images.pexels.com/photos/3492589/pexels-photo-3492589.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      btn: "- Important",
+      topBtn: "Open",
+      link: "https://images.pexels.com/photos/316093/pexels-photo-316093.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
     },
     {
       id: 2,
       title: "Top Places to Visit",
       description: "A small description goes here",
-      btn: "Important",
-      link: "https://images.pexels.com/photos/3492589/pexels-photo-3492589.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      btn: "- Important",
+      topBtn: "Restriction",
+      link: "https://images.pexels.com/photos/316093/pexels-photo-316093.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
     },
     {
       id: 3,
       title: "Option Without Description",
-      description: "A small description goes here",
-      btn: "2 mins read",
-      link: "https://images.pexels.com/photos/3492589/pexels-photo-3492589.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      description: "goes here",
+      btn: "- 2 mins read",
+      topBtn: "Covid Travel updates",
+      link: "https://images.pexels.com/photos/316093/pexels-photo-316093.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
     },
     {
       id: 4,
       title: "Delhi events 2022",
       description: "A small description goes here",
-      btn: "2 mins read",
-      link: "https://images.pexels.com/photos/3492589/pexels-photo-3492589.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      btn: "- 2 mins read",
+      topBtn: "Open",
+      link: "https://images.pexels.com/photos/316093/pexels-photo-316093.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
     },
   ];
   return (
@@ -42,6 +46,9 @@ const ImageCard = () => {
             <h6>{i.title}</h6>
             <p>{i.description}</p>
             <ImageCardButton btn={i.btn} />
+            <div className="top-btn">
+              <ImageCardButton btn={i.topBtn} />
+            </div>
           </div>
         </Figure>
       ))}

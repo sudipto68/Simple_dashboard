@@ -2,6 +2,8 @@ body{
   margin: 3px 8px 3px 10px !important;
   overflow-x: hidden;
 }
+
+/* header style starts here */
 .header{
   display: flex;
   color: gray;
@@ -119,6 +121,9 @@ li {
   padding:15px;
   margin-top: -150px;
 }
+.text-part h6{
+  font-weight: 700;
+}
 
 .common-btn{
   color:white;
@@ -128,11 +133,18 @@ li {
   background-color:transparent;
   border-radius:18px;
 }
+.top-btn{
+  margin-top: -230px;
+}
+.top-btn{
+  border:none;
+}
+
+
+/* //for responsiveness */
 
 @media only screen and (max-width: 1315px) {
- .img-row{
-   flex-direction: row !important;
- }
+ 
 }
 
 @media only screen and (max-width: 767px) {
