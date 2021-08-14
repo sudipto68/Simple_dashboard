@@ -1,5 +1,5 @@
 body{
-  margin: 3px 8px 3px 10px !important;
+  margin: 2px 8px 3px 10px !important;
   overflow-x: hidden;
 }
 
@@ -65,7 +65,7 @@ li {
 /* sidebar styles */
 .sidebar{
   height: 100vh;
-  box-shadow: 1px 1px 2px lightgray;
+  box-shadow: 1px 0px 1px lightgray;
   font-weight: 600;
   color: grey;
 }
@@ -97,6 +97,7 @@ li {
 
 .main-body{
   margin-left: -11px;
+  height:72vh;
   background-color: rgb(242, 245, 247);
 }
 .main-content{
@@ -135,12 +136,39 @@ li {
 }
 .top-btn{
   margin-top: -230px;
-}
-.top-btn{
+  margin-left: -8px;
+  color:white;
+  padding:2px 10px 5px;
+  font-size:12px;
   border:none;
+  background-color:rgb(34, 32, 32);
+  border-radius:18px;
 }
 
+.normal-btn{
+  padding: 0px 25px;
+  background-color:white;
+}
+.normal-btn:hover{
+  background-color:skyblue;
+}
 
+.arrow-btn{
+  background-color: white;
+  color: grey;
+  padding: 3px;
+  font-size:25px;
+  font-weight:bold;
+  margin-right: 5px;
+  border-radius:2px;
+  box-shadow: 0px 1px 2px 1px lightsteelblue;
+}
+.arrow-btns{
+  margin-top: 120px;
+  margin-right: 150px;
+  display: flex;
+  justify-content: flex-end;
+}
 /* //for responsiveness */
 
 @media only screen and (max-width: 1315px) {

@@ -1,6 +1,8 @@
 import React from "react";
 import { Button } from "react-bootstrap";
 import ImageCard from "./ImageCard";
+import { IoIosArrowBack } from "react-icons/io";
+import { IoIosArrowForward } from "react-icons/io";
 
 const MainBody = () => {
   return (
@@ -13,7 +15,9 @@ const MainBody = () => {
             <h5 style={{ color: "grey" }}>
               Popular destinations open to visitors from your country
             </h5>
-            <Button variant="outline-primary">See all</Button>
+            <Button variant="outline-primary" className="normal-btn">
+              See all
+            </Button>
           </div>
           <div className="images">
             <div className="row">
@@ -21,6 +25,10 @@ const MainBody = () => {
                 <ImageCard />
               </div>
             </div>
+          </div>
+          <div className="arrow-btns">
+            <IoIosArrowBack className="arrow-btn" />
+            <IoIosArrowForward className="arrow-btn" />
           </div>
         </div>
       </div>

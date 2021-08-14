@@ -1,6 +1,7 @@
 import React from "react";
 import { Figure } from "react-bootstrap";
 import ImageCardButton from "./ImageCardButton";
+import ImageCardTopButton from "./ImageCardTopButton";
 
 const ImageCard = () => {
   const imageCardList = [
@@ -47,7 +48,7 @@ const ImageCard = () => {
             <p>{i.description}</p>
             <ImageCardButton btn={i.btn} />
             <div className="top-btn">
-              <ImageCardButton btn={i.topBtn} />
+              <ImageCardTopButton btn={i.topBtn} />
             </div>
           </div>
         </Figure>
