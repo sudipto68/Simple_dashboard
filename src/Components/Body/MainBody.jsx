@@ -27,8 +27,12 @@ const MainBody = () => {
             </div>
           </div>
           <div className="arrow-btns">
-            <IoIosArrowBack className="arrow-btn" />
-            <IoIosArrowForward className="arrow-btn" />
+            <a href="#link">
+              <IoIosArrowBack className="arrow-btn" />
+            </a>
+            <a href="#link">
+              <IoIosArrowForward className="arrow-btn" />
+            </a>
           </div>
         </div>
       </div>
