@@ -21,7 +21,7 @@ const MainBody = () => {
           </div>
           <div className="images">
             <div className="row">
-              <div className="col-md-3 w-100 d-flex justify-content-between img-row">
+              <div className="image-card">
                 <ImageCard />
               </div>
             </div>
@@ -41,3 +41,5 @@ const MainBody = () => {
 };
 
 export default MainBody;
+
+// d-flex justify-content-between img-row

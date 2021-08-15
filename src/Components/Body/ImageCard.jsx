@@ -41,7 +41,7 @@ const ImageCard = () => {
   return (
     <>
       {imageCardList.map((i) => (
-        <Figure>
+        <Figure className="fig">
           <Figure.Image className="fig-img" src={i?.link} />
           <div className="text-part">
             <h6>{i.title}</h6>

@@ -169,10 +169,28 @@ li {
   display: flex;
   justify-content: flex-end;
 }
+
+.image-card{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px 10px;
+}
 /* //for responsiveness */
 
-@media only screen and (max-width: 1315px) {
- 
+@media only screen and (max-width: 1200px) {
+  .image-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .fig{
+    margin-top: 80px;
+  }
+  .top-btn{
+    width:100px;
+  }
+  .main-body{
+    height:100%;
+  }
 }
 
 @media only screen and (max-width: 767px) {
